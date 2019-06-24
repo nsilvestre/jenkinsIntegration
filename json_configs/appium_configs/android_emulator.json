@@ -1,0 +1,11 @@
+{
+  "automationName": "UiAutomator2",
+  "platformName": "Android",
+  "platformVersion": "8.1",
+  "deviceName": "Pixel XL API 27",
+  "noReset": true,
+  "useNewWDA": false,
+  "newCommandTimeout": 180,
+  "appPackage": "com.android.contacts",
+  "appActivity": ".activities.PeopleActivity"
+}

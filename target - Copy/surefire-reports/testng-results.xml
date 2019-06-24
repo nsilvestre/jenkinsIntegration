@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-03T17:27:02Z" name="Surefire suite" finished-at="2019-06-03T17:27:11Z" duration-ms="8973">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.company.test.runner.TestRunner@4fb0f2b9]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2019-06-03T17:27:02Z" name="Surefire test" finished-at="2019-06-03T17:27:11Z" duration-ms="8973">
+      <class name="com.company.test.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.company.test.runner.TestRunner@4fb0f2b9]" started-at="2019-06-03T17:27:02Z" name="setUpClass" finished-at="2019-06-03T17:27:02Z" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.company.test.runner.TestRunner@4fb0f2b9]" started-at="2019-06-03T17:27:02Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-03T17:27:11Z" duration-ms="8560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Set up the environment selecting the Partner and its environment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.company.test.runner.TestRunner@4fb0f2b9]" started-at="2019-06-03T17:27:11Z" name="tearDownClass" finished-at="2019-06-03T17:27:11Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.company.test.runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

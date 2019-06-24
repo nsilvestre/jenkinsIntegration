@@ -1,0 +1,5 @@
+lfs/iOSApp filter=lfs diff=lfs merge=lfs -text
+lfs/selenium-server-standalone-3.11.0.jar filter=lfs diff=lfs merge=lfs -text
+lfs/selenium-server-standalone-3.6.0.jar filter=lfs diff=lfs merge=lfs -text
+lfs/webdrivers filter=lfs diff=lfs merge=lfs -text
+lfs/ filter=lfs diff=lfs merge=lfs -text

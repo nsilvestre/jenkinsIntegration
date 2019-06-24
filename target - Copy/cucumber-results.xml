@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="34.952802">
+<testcase classname="Add new contact" name="Create contact" time="16.222243">
+<system-out><![CDATA[Given android_emulator appium driver........................................passed
+When I tap Add button.......................................................passed
+And I enter the first name and last name....................................passed
+And I enter the phone number................................................passed
+And I tap save..............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add new contact" name="Delete contact" time="18.730559">
+<system-out><![CDATA[Given android_emulator appium driver........................................passed
+When I select the contact...................................................passed
+And I tap the menu..........................................................passed
+And I tap delete............................................................passed
+And I tap delete from the alert.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

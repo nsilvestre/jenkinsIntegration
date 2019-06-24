@@ -1,0 +1,10 @@
+{
+  "automationName": "XCUITest",
+  "platformName": "iOS",
+  "platformVersion": "12.1",
+  "deviceName": "iPad Air 2",
+  "noReset": true,
+  "useNewWDA": false,
+  "newCommandTimeout": 180,
+  "bundleId": "com.apple.MobileAddressBook"
+}

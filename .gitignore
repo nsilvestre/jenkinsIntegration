@@ -1,0 +1,72 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.o
+*.so
+
+# IntelliJ #
+############
+*.iml
+*.ipr
+*.iws
+**/.idea
+**/.idea/vcs.xml
+/.idea
+
+# Maven #
+#########
+**/target
+
+# Other IDE's#
+##############
+\.classpath
+\.project
+\.settings
+\.dorsync
+/nbactions.xml
+/bin/
+
+# Appium Maven Plugin#
+##############
+/target/
+/appium-maven-plugin-test/target/
+/appium-maven-plugin-example/target/
+/appium-maven-plugin/target/
+/appium-maven-plugin/src/it/basic/target/
+/appium-maven-plugin-example/appium-maven-plugin-example.iml
+/appium-maven-plugin/appium-maven-plugin.iml
+/appium-maven-plugin-parent.iml
+/.idea
+/appium-maven-plugin-example/gen
+/appium-maven-plugin-example/.idea
+/appium-maven-plugin/src/test/it/basic/target/
+/node
+/nb-configuration.xml
+appium-maven-plugin/node/
+appium-maven-plugin-example/nb-configuration.xml
+appium-maven-plugin/nb-configuration.xml
+src/test/resource/etc/
+src/test/resource/node/
+src/main/resource/js/
+src/main/resource/output/
+src/test/resource/node_modules/
+/src/test/resource/bin/
+/src/test/resource/node/
+/src/test/resource/lib/node_modules/appium/
+/src/main/resource/
+/src/test/resource/
+!/src/test/resource/extent-config.xml
+!/src/test/resource/log4j2.xml
+!/src/test/resource/package.json
+!/src/test/resource/
+/src/test/resource/lib/node_modules/
+/gen/
+
+# Folders Framework#
+/screenshots/*.jpg
+/reports/visual_image_testing/*.jpg
+**/.DS_Store
+dependents.xml
+reports/measurements/

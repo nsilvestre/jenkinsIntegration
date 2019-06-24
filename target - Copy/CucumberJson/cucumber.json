@@ -1,0 +1,226 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1057497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MobileSteps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Create contact",
+        "description": "",
+        "id": "add-new-contact;create-contact;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 115658,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MobileSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8999670304,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "android_emulator appium driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "android_emulator",
+                  "offset": 0
+                }
+              ],
+              "location": "MobileSteps.setup_appium(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996566922,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I tap Add button",
+            "match": {
+              "location": "MainContactsSteps.iTapAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5585899768,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the first name and last name",
+            "match": {
+              "location": "CreateNewContactSteps.iEnterTheFirstNameAndLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40198,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the phone number",
+            "match": {
+              "location": "CreateNewContactSteps.iEnterThePhoneNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 638892797,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap save",
+            "match": {
+              "location": "CreateNewContactSteps.iTapSave()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@working"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 110721,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MobileSteps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Delete contact",
+        "description": "",
+        "id": "add-new-contact;delete-contact;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 37730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MobileSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12003812846,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "android_emulator appium driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "android_emulator",
+                  "offset": 0
+                }
+              ],
+              "location": "MobileSteps.setup_appium(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 984436196,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select the contact",
+            "match": {
+              "location": "MainContactsSteps.iSelectTheContact()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2250006436,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I tap the menu",
+            "match": {
+              "location": "MainContactsSteps.iTapTheMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1181864278,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I tap delete",
+            "match": {
+              "location": "MainContactsSteps.iTapDelete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2310291230,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I tap delete from the alert",
+            "match": {
+              "location": "MainContactsSteps.iTapDeleteFromTheAlert()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@working"
+          }
+        ]
+      }
+    ],
+    "name": "Add new contact",
+    "description": "",
+    "id": "add-new-contact",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/company/test/features/ANDROID/AddContact.feature"
+  }
+]
